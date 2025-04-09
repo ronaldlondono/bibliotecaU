@@ -1,6 +1,3 @@
-from models.Libro import Libro
-from models.BaseDeDatos import BaseDeDatos
-
 class GestorLibros:
     def __init__(self, db):
         self.db = db
